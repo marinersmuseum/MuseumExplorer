@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <questions>
+        <question>
+            <text>Brightest</text>
+            <placeholder>images/badges/fresnel_lens_badge_ph.png</placeholder>
+            <picture>images/badges/fresnel_lens_badge.png</picture>
+            <hints>
+                <hint>So bright, it could be seen for up to 20 miles.</hint>
+                <hint>Used since ancient times, this item was important for guiding sailors safely to shore.</hint>
+                <hint>This item sheds light on our golden eagle.</hint>
+            </hints>
+            <answers>
+                <answer name="2135" score="1">Brightest</answer>
+            </answers>
+            <object>Fresnel lens</object>
+            <description>This first order Fresnel lens was removed from the Cape Charles Lighthouse in Chesapeake Bay in 1963 and brought to The Mariners' Museum. The Fresnel lens was invented by Augustin Fresnel, a French scientist. This new type of lens was brighter and more visible from longer distances.</description>
+        </question>
+        <question>
+            <text>Grossest</text>
+            <placeholder>images/badges/coprolite_badge_ph.png</placeholder>
+            <picture>images/badges/coprolite_badge.png</picture>
+            <hints>
+                <hint>When nature called</hint>
+                <hint>Useful for helping plants to grow in prehistoric times as well as today</hint>
+                <hint>Near the largest shark to ever swim the seas</hint>
+            </hints>
+            <answers>
+                <answer name="3024" score="1">Grossest</answer>
+            </answers>
+            <object>Coprolite</object>
+            <description>An important part of the ecosystem, dinosaur poop was crucial for fertilizing plant life. Fossilized dung, called "coprolites," can also help paleontologists understand the diet of dinosaur species, and can help them identify plants and animals that were around during these ages.</description>
+        </question>
+        <question>
+            <text>Chattiest</text>
+            <placeholder>images/badges/columbia_badge_ph.png</placeholder>
+            <picture>images/badges/columbia_badge.png</picture>
+            <hints>
+                <hint>Though draped in an American flag, this object traveled the world's trade routes.</hint>
+                <hint>While she's made of wood, she's certainly not "wooden".</hint>
+                <hint>Visit her in the Great Hall of Steam. Get close enough, and she'll tell you her life story.</hint>
+            </hints>
+            <answers>
+                <answer name="4913" score="1">Chattiest</answer>
+            </answers>
+            <object>Columbia</object>
+            <description>Our Columbia figurehead tells her story all day long to curious and unsuspecting visitors, making her the chattiest. She spent her life attached to the Scottish-built, iron-hulled, three-masted trading ship Benmore, built in 1870. The Benmore was sold to an American in 1920 who gave Columbia her patriotic paint job. The Benmore sailed the world's trade routes from Vancouver to Hong Kong and South America, finally becoming scrapped in New York. This well-traveled lady is quite cosmopolitan.</description>
+        </question>
+        <question>
+            <text>Deepest</text>
+            <placeholder>images/badges/trieste_badge_ph.png</placeholder>
+            <picture>images/badges/trieste_badge.png</picture>
+            <hints>
+                <hint>A model of its life-size counterpart.</hint>
+                <hint>Man-made, it dove to the deepest known part of the ocean.</hint>
+                <hint>Although not defending the seas, this submersible made history in the name of science.</hint>
+            </hints>
+            <answers>
+                <answer name="5802" score="1">Deepest</answer>
+            </answers>
+            <object>Trieste Submersible Model</object>
+            <description>On January 23, 1960, Trieste made an historic dive to the bottom of the Mariana Trench, the deepest known point on Earth at nearly 7 miles below sea level. They stayed on the ocean floor for roughly 20 minutes and observed small, shrimp-like creatures that proved the deep ocean could support marine life.</description>
+        </question>
+        <question>
+            <text>Smallest</text>
+            <placeholder>images/badges/sampan_badge_ph.png</placeholder>
+            <picture>images/badges/sampan_badge.png</picture>
+            <hints>
+                <hint>August Crabtree didn't carve this one.</hint>
+                <hint>You need to know your ABC's to locate it in this exhibition.</hint>
+                <hint>Look carefully beyond the glass in the A to Z Gallery. It's so small, you just might miss it.</hint>
+            </hints>
+            <answers>
+                <answer name="6791" score="1">Smallest</answer>
+            </answers>
+            <object>Model of a Sampan</object>
+            <description>This sampan model, only 1 5/8" x 3/4" x 3/4" in size, is carved from a litchi nut and is the smallest boat model in the Museum's collection. It has working shutters and when opened they reveal several figures inside. Four figures sit on the forward deck, two of them under an awning and two at a table with dishes; two other figures on after deck, one of them holding onto a tiller or scull. Large crane in flight decorates the woven-straw-textured roof. Characters on the bottom tell of a Chinese family escaping from a typhoon and sailing down the Canton River.</description>
+        </question>
+        <question>
+            <text>Bloodiest</text>
+            <placeholder>images/badges/surgical_kit_badge_ph.png</placeholder>
+            <picture>images/badges/surgical_kit_badge.png</picture>
+            <hints>
+                <hint>Many of the items inside were used to stop bleeding for wounded seaman.</hint>
+                <hint>The large saw inside would've been used a lot during naval battles, as amputation was then the only treatment considered for limbs smashed by splinters or cannon balls.</hint>
+                <hint>Found in the Nelson Touch gallery, this box is clean and well preserved, showing no signs of a bloody past.</hint>
+            </hints>
+            <answers>
+                <answer name="7680" score="1">Bloodiest</answer>
+            </answers>
+            <object>French Naval Surgical Kit</object>
+            <description>Naval surgical kits like this one from 1859 would've been covered in blood during a sea battle. It has everything a ship's surgeon would need to fix wounded seamen. Before naval battles, ship decks were covered with sand or sawdust to prevent seamen and the ship's surgeons from slipping in the bloodbath. When the sand absorbed all the blood it could hold, blood would seep through the seams of the deck and onto the faces of the wounded men below.</description>
+        </question>
+        <question>
+            <text>Softest</text>
+            <placeholder>images/badges/bull_boat_badge_ph.png</placeholder>
+            <picture>images/badges/bull_boat_badge.png</picture>
+            <hints>
+                <hint>Used by plains tribes like the Mandan and Hidatsa.</hint>
+                <hint>There's no bull about it, this made for a soft boat ride.</hint>
+                <hint>One of many Small Craft on display</hint>
+            </hints>
+            <answers>
+                <answer name="8579" score="1">Softest</answer>
+            </answers>
+            <object>Bull Boat</object>
+            <description>The round bull boat is so named because the hide that covers the frame comes from the bison bull. Plains tribes like the Mandan and Hidatsa fashioned a frame from willow saplings. Then they stretched the bison, and later cow, hide tightly over the frame.</description>
+        </question>
+        <question>
+            <text>Heaviest</text>
+            <placeholder>images/badges/turret_badge_ph.png</placeholder>
+            <picture>images/badges/turret_badge.png</picture>
+            <hints>
+                <hint>The first of its kind and an important technological advance in naval architecture and warfare.</hint>
+                <hint>When discovered, the remains of two bodies were found inside.</hint>
+                <hint>Rests in a tank filled with 90,000 gallons of water</hint>
+            </hints>
+            <answers>
+                <answer name="9468" score="1">Heaviest</answer>
+            </answers>
+            <object>USS Monitor turret</object>
+            <description>At approximately 160 tons, USS Monitor's rotating gun turret with its guns is the heaviest artfifact at the museum. The turret was recovered from the ocean floor in 2002, and was an important technological advance in naval architecture and warfare. Having spent almost 140 years immersed in saltwater, the turret must go through extensive conservation efforts to preserve it from suffering further corrosion and decay. Conservators expect the turret conservation to be completed in about 20 years.</description>
+        </question>
+        <question>
+            <text>Saddest</text>
+            <placeholder>images/badges/life_vest_badge_ph.png</placeholder>
+            <picture>images/badges/life_vest_badge.png</picture>
+            <hints>
+                <hint>Worn by a victim of tragedy.</hint>
+                <hint>A lifesaving device from the world's most famous shipwreck.</hint>
+                <hint>Find this near the Titanic lifeboat replica.</hint>
+            </hints>
+            <answers>
+                <answer name="0257" score="1">Saddest</answer>
+            </answers>
+            <object>Life Jacket</object>
+            <description>Though not the largest loss of life at sea, the sinking of the "unsinkable" R.M.S. Titanic was part accident but mostly a failure in ship design and operations. The Titanic only had lifeboats for half its passengers on board, and during the disaster most lifeboats were released at only partial capacity. Out of its 2,224 passengers and crew, only an estimated 705 survived. This life jacket was pulled off one of the bodies by an undertaker and therefore perfectly iconifies the tragedy of the R.M.S. Titanic.</description>
+        </question>
+    </questions>
+    <results>
+        <result name="default">
+            <redirect>http://www.example.com/redirect_5</redirect>
+            <HTMLPage>html_results/default.html</HTMLPage>
+        </result>
+    </results>
+    <local>
+        <name>What things can you find?</name>
+        <header>Questions to go:</header>
+        <resultHeader>Result:</resultHeader>
+        <silentResult>Thanks!</silentResult>
+    </local>
+</test>
+
