@@ -691,7 +691,7 @@ html, body{background-color:#ffffff;}
 .ui-state-active .ui-icon, .ui-state-hover .ui-icon{background-image:url(images/ui-icons_ffffff_0.png);}
 .ui-widget-overlay {
   background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; 
-  opacity: .30;
+  opacity: .40 !important;
   filter:Alpha(Opacity=30);
   z-index: 1000;
 }
@@ -728,7 +728,7 @@ html, body{background-color:#ffffff;}
 .ui-tabs-nav{border-color:#d4d4d4;}
 
 /* Dialog states */
-.ui-dialog{border-color:#00529B;background-color:#ffffff !important;}
+.ui-dialog{border-color:#00529B;background-color:#ffffff !important;border-radius:10px;}
 .ui-dialog-titlebar{border-color:#00529B;color:#ffffff;background-color:#00529B;}
 .ui-dialog-buttonpane{border-color:#00529B !important;background-color:#ffffff;}
 .ui-dialog-content{background-color:#ffffff !important;}
@@ -953,6 +953,7 @@ HEADER
 	width:100%;
 	height:57px;
 	background-color:#00529B;
+	border-bottom: 2px solid rgba(255,255,255,.1);
 }
 .site-logo, .site-logo img {
 	font-size:11px;
@@ -1043,7 +1044,7 @@ HEADER
 	top:90px;
 	bottom:0;
 	
-	overflow:auto;
+	overflow:visible;
 	
 	-webkit-transform: translateX(-100%) scale(0.9);
 	-moz-transform: translateX(-100%) scale(0.9);
@@ -1070,8 +1071,8 @@ HEADER
 .menu, #menu p {
 	text-align:left;
 	position:relative;
-	padding:16px 0 20px 5px;
-	margin:0 20px 0 0;
+	padding:16px 0 10px 5px;
+	margin: 0 20px -21px 0;
 	background:none;
 }
 .menu a {
@@ -1092,7 +1093,7 @@ HEADER
 }
 #menu p img {
 	position: relative;
-	margin-top: 1em;
+	padding-bottom: 1em;
 }
 .menu a:hover, .menu a:active {
 	color:#fff;
@@ -1290,6 +1291,81 @@ MENU FLYOUT CONTENT
     margin-left: -10px;
 	padding-left: 23px;
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+	#menu-main-menu a.active p {
+		padding: 2em;
+	}
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+	#menu {
+		top: 45px;
+	}
+	#menu p img {
+		margin-top: 0em;
+	}
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+	#menu-main-menu a.active p {
+		width: 50%;
+	}
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+	#menu-main-menu a.active p {
+		width: 368px;
+		padding: 2em;
+	}
+	#menu-main-menu a.active p {
+		width: 550px;
+		padding: 1em 0;
+		position: relative;
+		left: 0;
+		width: 277px;
+		min-height: 208px;
+	}
+}
 /* for WebKit browsers:  hide scrollbar with scrolling enabled */
 ::-webkit-scrollbar {
     display: none;
@@ -1382,9 +1458,22 @@ div#quiz h2#testHeaderH2 {
 
 div.question_wrapper {
     overflow: hidden;
-    -webkit-border-radius: .6em;
-    -moz-border-radius: .6em;
-    border-radius: .6em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.1);
+    border: 2px solid rgba(255,255,255,.2);
+    padding: 15px;
+}
+
+/* Below is specifically for desktop use (no-touch class is added by JS) */
+html.no-touch div.question_wrapper:hover {
+    background-color: rgba(51,153,255,.7);
+    border-color: rgba(51,153,255,.1);
+}
+html.no-touch div.question_wrapper.unlocked, div.question_wrapper.unlocked {
+    background-color: rgba(51,153,255,1);
+    border-color: rgba(51,153,255,.1);
 }
 
 div.question_wrapper img, div.question_wrapper ul {
@@ -1579,6 +1668,29 @@ div#num-pad .code-key {
 
 .ui-dialog .ui-dialog-title { text-align: center; width: 100%;}
 .no-close .ui-dialog-titlebar-close { display: none; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+    div.question_wrapper {
+        overflow: hidden;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 0;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    div.question_wrapper:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    div.question_wrapper.unlocked {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
 /* Generated by Font Squirrel (http://www.fontsquirrel.com) on May 29, 2014 */
 
 
