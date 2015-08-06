@@ -17,19 +17,19 @@
             <description>This first order Fresnel lens was removed from the Cape Charles Lighthouse in Chesapeake Bay in 1963 and brought to The Mariners' Museum. The Fresnel lens was invented by Augustin Fresnel, a French scientist. This new type of lens was brighter and more visible from longer distances.</description>
         </question>
         <question>
-            <text>Oldest</text>
-            <placeholder>images/badges/labrets_badge_ph.png</placeholder>
-            <picture>images/badges/labrets_badge.png</picture>
+            <text>Grossest</text>
+            <placeholder>images/badges/coprolite_badge_ph.png</placeholder>
+            <picture>images/badges/coprolite_badge.png</picture>
             <hints>
-                <hint>A pre-Columbian "pierce" of history</hint>
-                <hint>So, you think body piercings are a new phenomena?</hint>
-                <hint>Used by tribes conquered by European explorers during the Age of Exploration</hint>
+                <hint>When nature called</hint>
+                <hint>Useful for helping plants to grow in prehistoric times as well as today</hint>
+                <hint>Near the largest shark to ever swim the seas</hint>
             </hints>
             <answers>
-                <answer name="3024" score="1">Oldest</answer>
+                <answer name="3024" score="1">Grossest</answer>
             </answers>
-            <object>Labrets</object>
-            <description>Labrets were intricately carved and used for traditional piercings through the lower lip by both men and women. These were used by the Tairona culture, in Santa Marta, Colombia, between 700 - 1400 AD.</description>
+            <object>Coprolite</object>
+            <description>An important part of the ecosystem, dinosaur poop was crucial for fertilizing plant life. Fossilized dung, called &#8220;coprolites&#8221;, can also help paleontologists understand the diet of dinosaur species, and can help them identify plants and animals that were around during these ages.</description>
         </question>
         <question>
             <text>Chattiest</text>
