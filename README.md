@@ -1,5 +1,4 @@
-Museum Quest
-==============
+# Museum Quest
 
 Game description:
 "Follow the clues to find nine of The Mariners' Museum's most treasured objects."
@@ -8,7 +7,9 @@ PhoneGap App GIT base for "Museum Quest" game. Parts of this code, though obfusc
 
 Copyright © 2014-2015 The Mariners' Museum and Park, 100 Museum Drive, Newport News, Virginia, 23606. All Rights Reserved.
 
-Museum app codes for testing:
+## Museum app codes
+
+Use the codes below to test the app:
 
 1. **Brightest** - Fresnel lens (Cape Charles lighthouse): **2135**
 2. **Oldest** - Labrets (Age of Exploration): **3024** 
